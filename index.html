@@ -4,22 +4,43 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UI-Compatible" content="ie=edge" />
         <link rel="stylesheet" href="./style.css" />
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         <title>Weather</title>
     </head>
 
     <body>
-        <div class="location">
-           <h1 class="location-timezone">Timezone</h1> 
-           <canvas class="icon" width="128" height="128"></canvas>
+        <input type="checkbox" id="check">
+        <label for="check">
+            <i class="fas fa-bars" id="btn"></i>
+            <i class="fas fa-times" id="cancel"></i>
+        </label>
+        <div class="sidebar">
+            <header>Cities</header>
+            <ul id="sidebar-list">
+                <li><a href="#">Current Location</a></li>
+                <li><a href="#">Portland</a></li>
+                <li><a href="#">Atlanta</a></li>
+                <li><a href="#">Boston</a></li>
+                <li><a href="#">New York</a></li>
+                <li><a href="#">Miami</a></li>
+                <li><a href="#">Chicago</a></li>
+            </ul>
         </div>
 
-        <div class="temperature-section">
-            <div class="degree-section">
-                <h2 class="temperature-degree">34</h2>
-                <span>F</span>
-            </div>
-            <div class="temperature-description">It's really cold</div>
-        </div>
+        <section>
+            <div class="location">
+                <h1 class="location-timezone">Timezone</h1> 
+                <canvas class="icon" width="128" height="128"></canvas>
+             </div>
+     
+             <div class="temperature-section">
+                 <div class="degree-section">
+                     <h2 class="temperature-degree">34</h2>
+                     <span>F</span>
+                 </div>
+                 <div class="temperature-description">It's really cold</div>
+             </div>
+        </section>
 
         <script src="skycons.js"></script>
         <script src="app.js"></script>
