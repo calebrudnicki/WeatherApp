@@ -1,7 +1,7 @@
-<img src="https://i.imgur.com/OzZrz8G.png" width="380px"> <img src="https://i.imgur.com/W0eR5id.png" width="380px">
-
 # WeatherApp
 A vanilla JavaScript weather app
+
+<img src="https://i.imgur.com/OzZrz8G.png" width="380px"> <img src="https://i.imgur.com/W0eR5id.png" width="380px">
 
 ## Features
 
